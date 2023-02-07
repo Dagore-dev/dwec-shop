@@ -1,8 +1,6 @@
 import {
-  BrowserRouter,
-  Switch,
   Route
-} from 'react-router-dom'
+} from 'wouter'
 
 import Navbar from './components/Navbar'
 import Home from './views/Home'
@@ -10,13 +8,13 @@ import Cart from './views/Cart'
 
 export default function App (): JSX.Element {
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
 
-      <Switch>
+      <main className='p-20'>
         <Route path='/cart' component={Cart} />
         <Route path='/' component={Home} />
-      </Switch>
-    </BrowserRouter>
+      </main>
+    </>
   )
 }
