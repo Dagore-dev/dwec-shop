@@ -13,7 +13,7 @@ export default function App (): JSX.Element {
     <>
       <Navbar />
 
-      <main className='p-20'>
+      <main className='py-20 md:p-20'>
         <Switch>
           <Route path='/cart' component={Cart} />
           <Route path='/' component={Home} />
