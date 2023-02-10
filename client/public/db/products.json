@@ -1,6 +1,7 @@
 {
   "products":[
      {
+        "id": 1,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -10,6 +11,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 2,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -19,6 +21,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 3,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -28,6 +31,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 4,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -37,6 +41,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 5,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -46,6 +51,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 6,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -55,6 +61,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 7,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -64,6 +71,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 8,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -73,6 +81,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 9,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -82,6 +91,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 10,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -91,6 +101,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 11,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -100,6 +111,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 12,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -109,6 +121,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 13,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -118,6 +131,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 14,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
@@ -127,6 +141,7 @@
         "warranty":"2 años"
      },
      {
+        "id": 15,
         "name":"Producto 1",
         "description":"Este es el producto 1",
         "imgAlt":"Imagen no disponible",
