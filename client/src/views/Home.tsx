@@ -1,16 +1,14 @@
-import { useEffect, useState } from 'react'
+import useProducts from '../hooks/useProducts'
 import ProductsGrid from '../components/ProductsGrid'
-import { IProduct } from '../interfaces/IProduct'
-import getAllProducts from '../services/getAllProducts'
 
 export default function Home (): JSX.Element {
-  const [products, setProducts] = useState<IProduct[] | undefined>()
+  const [products, error] = useProducts()
 
-  useEffect(() => {
-    getAllProducts()
-      .then(products => setProducts(products))
-      .catch(error => console.log(error))
-  }, [])
+  if (error) {
+    return (
+      <h2 className='text-4xl'>Tenemos problemas para recuperar los últimos productos</h2>
+    )
+  }
 
   if (products == null) {
     return (
@@ -24,7 +22,6 @@ export default function Home (): JSX.Element {
   return (
     <>
       <h2 className='text-4xl'>Novedades</h2>
-
       <ProductsGrid listOfProducts={products} />
     </>
   )
